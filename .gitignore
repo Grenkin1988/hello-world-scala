@@ -13,7 +13,7 @@ project/metals.sbt
 .tasty
 
 # sbt
-project/project/
+project/project
 project/target/
 target/
 
@@ -54,3 +54,13 @@ bin/
 
 #general
 *.class
+project/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output
+project/project/target/streams/compile/compileIncremental/_global/streams/out
+project/project/target/streams/compile/copyResources/_global/streams/out
+project/project/target/streams/compile/incOptions/_global/streams/out
+project/target/streams/compile/bloopGenerate/_global/streams/out
+project/target/streams/compile/bloopPostGenerate/_global/streams/out
+project/target/streams/compile/compileIncremental/_global/streams/out
+project/target/streams/compile/copyResources/_global/streams/out
+project/target/streams/compile/incOptions/_global/streams/out
+target/scala-2.13/update/update_cache_2.13/output
