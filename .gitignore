@@ -1,6 +1,41 @@
+# Intellij
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.cache-main
+.cache-tests
+.settings/
+
 # bloop and metals
 .bloop
 .bsp
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+.history
+.cache
+.lib/
+project/project/
+project/target/
+project/boot/
+project/plugins/project/
+
+### Scala ###
+*.class
+*.log
+/bin/
+
+# scala 3
+.tasty
 
 # metals
 project/metals.sbt
@@ -8,59 +43,3 @@ project/metals.sbt
 
 # vs code
 .vscode
-
-# scala 3
-.tasty
-
-# sbt
-project/project
-project/target/
-target/
-
-# sbt specific
-.cache/
-.history/
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-
-# eclipse
-build/
-.classpath
-.project
-.settings
-.worksheet
-bin/
-.cache
-
-# intellij idea
-*.log
-*.iml
-*.ipr
-*.iws
-.idea
-
-# mac
-.DS_Store
-
-# other?
-.history
-.scala_dependencies
-.cache-main
-
-#general
-*.class
-project/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output
-project/project/target/streams/compile/compileIncremental/_global/streams/out
-project/project/target/streams/compile/copyResources/_global/streams/out
-project/project/target/streams/compile/incOptions/_global/streams/out
-project/target/streams/compile/bloopGenerate/_global/streams/out
-project/target/streams/compile/bloopPostGenerate/_global/streams/out
-project/target/streams/compile/compileIncremental/_global/streams/out
-project/target/streams/compile/copyResources/_global/streams/out
-project/target/streams/compile/incOptions/_global/streams/out
-target/scala-2.13/update/update_cache_2.13/output
