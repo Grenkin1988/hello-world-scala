@@ -1,6 +1,6 @@
 case class Currency(code: String, amount: Double, toUSD: Double)
 
-object Implicits extends App {
+object Implicits {
     implicit def stringToCurrency(money: String) = {
         val Array(code: String, value: String) = money.split("\\s")
         val ammountAsDouble = value.toDouble
