@@ -64,3 +64,7 @@ val numbers = Array(1, 2, 3, 4,5,6, 7)
 
 numbers.map(n => n * 2)
 numbers.filter(n => (n % 2) == 0)
+
+val thisIsFunction = (n: Int) => n * 2
+
+val n = thisIsFunction(2)
