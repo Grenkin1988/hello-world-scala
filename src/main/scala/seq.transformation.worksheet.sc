@@ -13,3 +13,15 @@ def validate(number: String) = {
 validate("49927398716")
 
 validate("79927398711")
+
+
+
+val xValues = Range(1, 5)
+val yValues = Range(1, 3)
+val coordinates = for {
+    x <- xValues
+    y <- yValues
+}
+yield (x, y)
+
+//coordinates(4) should be((5,1))
